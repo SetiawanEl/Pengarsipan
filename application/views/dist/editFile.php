@@ -10,12 +10,35 @@ $this->load->view('dist/_partials/header');
           </div>
           <div class="card">
                   <div class="card-header">
+                    <h4>Pilih File</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputState">Id File</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label>Judul Surat</label>
+                      <input type="text" class="form-control" readonly="">
+                    </div>
+                    </div>
+                </div>
+          <div class="section-body">
+          </div>
+        </section>
+        <section class="section">
+          <div class="card">
+                  <div class="card-header">
                     <h4>Tambah File</h4>
                   </div>
                   <div class="card-body">
                     <div class="form-group">
                       <label for="inputAddress">Judul Surat</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="Masukan Judul Surat" >
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Masukan Judul Surat">
                     </div>
                     <div class="form-group">
                       <label for="inputAddress2">Pengirim</label>

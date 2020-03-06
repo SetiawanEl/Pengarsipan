@@ -52,11 +52,39 @@ class Dist extends CI_Controller {
 		$this->load->view('dist/tambahKategori', $data);
 	}
 
+	public function tambahUser() {
+		$data = array(
+			'title' => "Tambah User"
+		);
+		$this->load->view('dist/tambahUser', $data);
+	}
+
+	public function listUser() {
+		$data = array(
+			'title' => "List User"
+		);
+		$this->load->view('dist/listUser', $data);
+	}
+	
 	public function tambahFile() {
 		$data = array(
 			'title' => "Tambah File"
 		);
 		$this->load->view('dist/tambahFile', $data);
+	}
+
+	public function editFile() {
+		$data = array(
+			'title' => "Edit File"
+		);
+		$this->load->view('dist/editFile', $data);
+	}
+
+	public function listFile() {
+		$data = array(
+			'title' => "list File"
+		);
+		$this->load->view('dist/listFile', $data);
 	}
 
 	public function bootstrap_alert() {

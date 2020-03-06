@@ -28,8 +28,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </ul>
             </li>
             <li class="<?php echo $this->uri->segment(2) == 'blank' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/blank"><i class="far fa-square"></i> <span>Blank Page</span></a></li>
-            <li class="<?php echo $this->uri->segment(2) == 'tambahKategori' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/tambahKategori"><i class="far fa-square"></i> <span>Tambah Kategori</span></a></li>
+            <li class="<?php echo $this->uri->segment(2) == 'listFile' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/listFile"><i class="far fa-square"></i> <span>List File</span></a></li>
             <li class="<?php echo $this->uri->segment(2) == 'tambahFile' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/tambahFile"><i class="far fa-square"></i> <span>Tambah File</span></a></li>
+            <li class="<?php echo $this->uri->segment(2) == 'editFile' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/editFile"><i class="far fa-square"></i> <span>Edit File</span></a></li>
             <li class="dropdown <?php echo $this->uri->segment(2) == 'bootstrap_alert' || $this->uri->segment(2) == 'bootstrap_badge' || $this->uri->segment(2) == 'bootstrap_breadcrumb' || $this->uri->segment(2) == 'bootstrap_buttons' || $this->uri->segment(2) == 'bootstrap_card' || $this->uri->segment(2) == 'bootstrap_carousel' || $this->uri->segment(2) == 'bootstrap_collapse' || $this->uri->segment(2) == 'bootstrap_dropdown' || $this->uri->segment(2) == 'bootstrap_form' || $this->uri->segment(2) == 'bootstrap_list_group' || $this->uri->segment(2) == 'bootstrap_media_object' || $this->uri->segment(2) == 'bootstrap_modal' || $this->uri->segment(2) == 'bootstrap_nav' || $this->uri->segment(2) == 'bootstrap_navbar' || $this->uri->segment(2) == 'bootstrap_pagination' || $this->uri->segment(2) == 'bootstrap_popover' || $this->uri->segment(2) == 'bootstrap_progress' || $this->uri->segment(2) == 'bootstrap_table' || $this->uri->segment(2) == 'bootstrap_tooltip' || $this->uri->segment(2) == 'bootstrap_typography' ? 'active' : ''; ?>">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th"></i> <span>Bootstrap</span></a>
               <ul class="dropdown-menu">
@@ -55,7 +56,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li class="<?php echo $this->uri->segment(2) == 'bootstrap_typography' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/bootstrap_typography">Typography</a></li>
               </ul>
             </li>
-            <li class="menu-header">Stisla</li>
+            <li class="menu-header">Setting</li>
+            <li class="<?php echo $this->uri->segment(2) == 'listUser' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/listUser"><i class="far fa-square"></i> <span>List User</span></a></li>
+            <li class="<?php echo $this->uri->segment(2) == 'tambahUser' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/tambahUser"><i class="far fa-square"></i> <span>Tambah User</span></a></li>
+            <li class="<?php echo $this->uri->segment(2) == 'tambahKategori' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/tambahKategori"><i class="far fa-square"></i> <span>Tambah Kategori</span></a></li>
             <li class="dropdown <?php echo $this->uri->segment(2) == 'components_article' || $this->uri->segment(2) == 'components_avatar' || $this->uri->segment(2) == 'components_chat_box' || $this->uri->segment(2) == 'components_empty_state' || $this->uri->segment(2) == 'components_gallery' || $this->uri->segment(2) == 'components_hero' || $this->uri->segment(2) == 'components_multiple_upload' || $this->uri->segment(2) == 'components_pricing' || $this->uri->segment(2) == 'components_statistic' || $this->uri->segment(2) == 'components_tab' || $this->uri->segment(2) == 'components_table' || $this->uri->segment(2) == 'components_user' || $this->uri->segment(2) == 'components_wizard' ? 'active' : ''; ?>">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Components</span></a>
               <ul class="dropdown-menu">
