@@ -6,11 +6,11 @@ $this->load->view('dist/_partials/header');
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1>Form Tambah File</h1>
+            <h1>Form Tambah User</h1>
           </div>
           <div class="card">
                   <div class="card-header">
-                    <h4>Tambah File</h4>
+                    <h4>Tambah User</h4>
                   </div>
                   <div class="card-body">
                       <div class="form-group col-md-6">

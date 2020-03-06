@@ -6,7 +6,7 @@ $this->load->view('dist/_partials/header');
       <div class="main-content">
         <section class="section">
           <div class="section-header">
-            <h1>Form Tambah File</h1>
+            <h1>Form Edit File</h1>
           </div>
           <div class="card">
                   <div class="card-header">
@@ -33,7 +33,7 @@ $this->load->view('dist/_partials/header');
         <section class="section">
           <div class="card">
                   <div class="card-header">
-                    <h4>Tambah File</h4>
+                    <h4>Edit File</h4>
                   </div>
                   <div class="card-body">
                     <div class="form-group">
